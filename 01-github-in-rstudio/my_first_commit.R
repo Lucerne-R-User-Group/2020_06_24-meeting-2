@@ -1,2 +1,4 @@
 library(tidyverse)
-qplot(mpg$cty)
+qplot(mpg$year)
+
+qplot(mpg$year, mpg$hwy)
