@@ -1,2 +1,2 @@
 library(tidyverse)
-qplot(mpg$hwy)
+qplot(mpg$cty)
